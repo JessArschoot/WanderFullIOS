@@ -1,0 +1,6 @@
+framework module Pods_TravellWonderTests {
+  umbrella header "Pods-TravellWonderTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
