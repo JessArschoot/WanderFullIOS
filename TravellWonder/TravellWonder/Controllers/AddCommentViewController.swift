@@ -22,7 +22,7 @@ class AddCommentViewController: UIViewController{
         print(username!)
         userService.fetchUserByName(name: username!, completion: { (response) -> Void in
            
-            self.comment = Comment(text: self.textField.text!, user: response.id!)
+            self.comment = Comment(text: self.textField.text!, user: response)
             if self.comment != nil {
                 print("gelukt")
                 self.performSegue(withIdentifier: "didAddComment", sender: self)

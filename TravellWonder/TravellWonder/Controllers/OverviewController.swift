@@ -78,10 +78,10 @@ extension OverviewController: UITableViewDelegate {
             if (self.articles[indexPath.row].user?.username == self.username){
                 self.service.removeArticle(articleId: self.articles[indexPath.row]._id!, completion: { () in
                     print("gelukt")
-                    
+                    _ = self.articles.remove(at: indexPath.row)
+                    tableView.deleteRows(at: [indexPath], with: .automatic)
                 })
-                _ = self.articles.remove(at: indexPath.row)
-                tableView.deleteRows(at: [indexPath], with: .automatic)
+               
                 
             }
             else{

@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/OverviewController.swift"
-            timestampString = "536028425.466482"
+            timestampString = "536078320.846116"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "19"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/OverviewController.swift"
-            timestampString = "536028425.466807"
+            timestampString = "536078320.846265"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "72"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/OverviewController.swift"
-            timestampString = "536028425.466872"
+            timestampString = "536078320.846335"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"
@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/OverviewController.swift"
-            timestampString = "536028425.46693"
+            timestampString = "536078320.846403"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
@@ -106,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/OverviewController.swift"
-            timestampString = "536028425.466982"
+            timestampString = "536078320.846466"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "48"
@@ -154,7 +154,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/ArticleDetailController.swift"
-            timestampString = "536028425.467093"
+            timestampString = "536079889.493044"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "5"
@@ -280,11 +280,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/ArticleDetailController.swift"
-            timestampString = "536028425.467442"
+            timestampString = "536079889.493446"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -296,7 +296,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Services/ArticleService.swift"
-            timestampString = "536028425.467535"
+            timestampString = "536078320.846785"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "14"
@@ -344,7 +344,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Services/ArticleService.swift"
-            timestampString = "536028425.467748"
+            timestampString = "536078320.846873"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
@@ -472,11 +472,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/AddArticleViewController.swift"
-            timestampString = "536028425.468401"
+            timestampString = "536079889.493765"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -488,7 +488,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/OverviewController.swift"
-            timestampString = "536028425.468591"
+            timestampString = "536078320.847118"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "54"
@@ -536,11 +536,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/AddArticleViewController.swift"
-            timestampString = "536028425.468675"
+            timestampString = "536079889.493828"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "btnClicked()"
             landmarkType = "7">
          </BreakpointContent>
@@ -552,27 +552,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/AddArticleViewController.swift"
-            timestampString = "536028425.468744"
+            timestampString = "536079889.493872"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "save()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TravellWonder/Controllers/AddArticleViewController.swift"
-            timestampString = "536028425.468825"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
             landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -584,11 +568,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/AddArticleViewController.swift"
-            timestampString = "536028425.468897"
+            timestampString = "536079889.493912"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "openGallary()"
             landmarkType = "7">
          </BreakpointContent>
@@ -600,11 +584,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/AddArticleViewController.swift"
-            timestampString = "536028425.468979"
+            timestampString = "536079889.493951"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "imagePickerControllerDidCancel(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -616,11 +600,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/AddArticleViewController.swift"
-            timestampString = "536028425.469052"
+            timestampString = "536079889.493989"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "save()"
             landmarkType = "7">
          </BreakpointContent>
@@ -632,7 +616,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/AddArticleViewController.swift"
-            timestampString = "536028425.469131"
+            timestampString = "536079889.494027"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "45"
@@ -644,11 +628,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/AddArticleViewController.swift"
-            timestampString = "536028425.469198"
+            timestampString = "536079889.494065"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
@@ -657,33 +641,33 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (TravellWonder.User) -&gt; () in TravellWonder.AddArticleViewController.save() -&gt; ()"
                   moduleName = "TravellWonder"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jessarschoot/ios/TravellWonder/TravellWonder/TravellWonder/Controllers/AddArticleViewController.swift"
-                  timestampString = "536027897.453413"
+                  timestampString = "536066786.259726"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "44"
-                  endingLineNumber = "44"
-                  offsetFromSymbolStart = "2110">
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "1556">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (TravellWonder.Article) -&gt; () in closure #1 (TravellWonder.User) -&gt; () in TravellWonder.AddArticleViewController.save() -&gt; ()"
                   moduleName = "TravellWonder"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jessarschoot/ios/TravellWonder/TravellWonder/TravellWonder/Controllers/AddArticleViewController.swift"
-                  timestampString = "536027897.455278"
+                  timestampString = "536066786.261177"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "45"
-                  endingLineNumber = "45"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
                   offsetFromSymbolStart = "24">
                </Location>
             </Locations>
@@ -692,11 +676,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Services/ArticleService.swift"
-            timestampString = "536028425.46928"
+            timestampString = "536078320.847826"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "49"
@@ -712,11 +696,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Views/ArticleCell.swift"
-            timestampString = "536027664.761188"
+            timestampString = "536078320.847897"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "btnLike()"
             landmarkType = "7">
          </BreakpointContent>
@@ -728,7 +712,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/ArticleDetailController.swift"
-            timestampString = "536028425.469401"
+            timestampString = "536079889.494132"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "33"
@@ -744,11 +728,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/ArticleDetailController.swift"
-            timestampString = "536028425.469485"
+            timestampString = "536079889.49435"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
             landmarkName = "alreadyLiked()"
             landmarkType = "7">
          </BreakpointContent>
@@ -776,11 +760,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/AddArticleViewController.swift"
-            timestampString = "536028425.46959"
+            timestampString = "536079889.494581"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "160"
-            endingLineNumber = "160"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
             landmarkName = "pickerView(_:titleForRow:forComponent:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -788,15 +772,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/AddArticleViewController.swift"
-            timestampString = "536028425.469662"
+            timestampString = "536079889.494625"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
             landmarkName = "textField(_:shouldChangeCharactersIn:replacementString:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -804,15 +788,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/AddArticleViewController.swift"
-            timestampString = "536028425.469735"
+            timestampString = "536079889.494666"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
             landmarkName = "textField(_:shouldChangeCharactersIn:replacementString:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -820,15 +804,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/AddArticleViewController.swift"
-            timestampString = "536028425.469791"
+            timestampString = "536079889.494706"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
             landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -836,15 +820,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/AddArticleViewController.swift"
-            timestampString = "536028425.469873"
+            timestampString = "536079889.494745"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
             landmarkName = "textView(_:shouldChangeTextIn:replacementText:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -872,7 +856,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Services/ArticleService.swift"
-            timestampString = "536028425.469969"
+            timestampString = "536078320.848555"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "157"
@@ -936,7 +920,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Services/ArticleService.swift"
-            timestampString = "536028425.470072"
+            timestampString = "536078320.848657"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "228"
@@ -952,13 +936,221 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TravellWonder/Controllers/OverviewController.swift"
-            timestampString = "536028425.470141"
+            timestampString = "536078320.848727"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "78"
             endingLineNumber = "78"
             landmarkName = "tableView(_:trailingSwipeActionsConfigurationForRowAt:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravellWonder/Controllers/AddArticleViewController.swift"
+            timestampString = "536079889.494844"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "save()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravellWonder/Controllers/OverviewController.swift"
+            timestampString = "536078320.848882"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "tableView(_:trailingSwipeActionsConfigurationForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__ObjC.UIContextualAction, __ObjC.UIView, (Swift.Bool) -&gt; ()) -&gt; () in TravellWonder.OverviewController.tableView(__ObjC.UITableView, trailingSwipeActionsConfigurationForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;__ObjC.UISwipeActionsConfiguration&gt;"
+                  moduleName = "TravellWonder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jessarschoot/ios/TravellWonder/TravellWonder/TravellWonder/Controllers/OverviewController.swift"
+                  timestampString = "536066786.250294"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "520">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (__ObjC.UIContextualAction, __ObjC.UIView, (Swift.Bool) -&gt; ()) -&gt; () in TravellWonder.OverviewController.tableView(__ObjC.UITableView, trailingSwipeActionsConfigurationForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;__ObjC.UISwipeActionsConfiguration&gt;"
+                  moduleName = "TravellWonder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jessarschoot/ios/TravellWonder/TravellWonder/TravellWonder/Controllers/OverviewController.swift"
+                  timestampString = "536066786.253287"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravellWonder/Controllers/OverviewController.swift"
+            timestampString = "536078320.848961"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "tableView(_:trailingSwipeActionsConfigurationForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravellWonder/Services/ArticleService.swift"
+            timestampString = "536078320.849028"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "257"
+            endingLineNumber = "257"
+            landmarkName = "removeArticle(articleId:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravellWonder.ArticleService.removeArticle(articleId: Swift.String, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "TravellWonder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jessarschoot/ios/TravellWonder/TravellWonder/TravellWonder/Services/ArticleService.swift"
+                  timestampString = "536079889.643623"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "257"
+                  endingLineNumber = "257"
+                  offsetFromSymbolStart = "888">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in TravellWonder.ArticleService.removeArticle(articleId: Swift.String, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "TravellWonder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jessarschoot/ios/TravellWonder/TravellWonder/TravellWonder/Services/ArticleService.swift"
+                  timestampString = "536079889.644817"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "257"
+                  endingLineNumber = "257"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravellWonder/Services/ArticleService.swift"
+            timestampString = "536078320.849082"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "260"
+            endingLineNumber = "260"
+            landmarkName = "removeArticle(articleId:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravellWonder/Controllers/ArticleDetailController.swift"
+            timestampString = "536079889.494933"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "unwindFromAddComment(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravellWonder/Controllers/ArticleDetailController.swift"
+            timestampString = "536079889.495148"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "tableView(_:trailingSwipeActionsConfigurationForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__ObjC.UIContextualAction, __ObjC.UIView, (Swift.Bool) -&gt; ()) -&gt; () in TravellWonder.ArticleDetailController.tableView(__ObjC.UITableView, trailingSwipeActionsConfigurationForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;__ObjC.UISwipeActionsConfiguration&gt;"
+                  moduleName = "TravellWonder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jessarschoot/ios/TravellWonder/TravellWonder/TravellWonder/Controllers/ArticleDetailController.swift"
+                  timestampString = "536079889.653738"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "580">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TravellWonder.Article) -&gt; () in closure #1 (__ObjC.UIContextualAction, __ObjC.UIView, (Swift.Bool) -&gt; ()) -&gt; () in TravellWonder.ArticleDetailController.tableView(__ObjC.UITableView, trailingSwipeActionsConfigurationForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;__ObjC.UISwipeActionsConfiguration&gt;"
+                  moduleName = "TravellWonder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jessarschoot/ios/TravellWonder/TravellWonder/TravellWonder/Controllers/ArticleDetailController.swift"
+                  timestampString = "536079889.655099"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

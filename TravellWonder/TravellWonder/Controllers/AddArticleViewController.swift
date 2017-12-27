@@ -33,22 +33,21 @@ class AddArticleViewController: UITableViewController, UIImagePickerControllerDe
     }
   
     @IBAction func save() {
+        self.saveButton.isEnabled = false
         let username = UserDefaults.standard.string(forKey: "username")
         print(username!)
         let image = UIImagePNGRepresentation(self.imageView.image!)!.base64EncodedString(options: .lineLength64Characters)
         userService.fetchUserByName(name: username!, completion: { (response) -> Void in
             let nation = self.nations[self.statusPicker.selectedRow(inComponent: 0)]
-            self.article = Article( user: response, date: Date(), nation : nation, title : self.titleField.text!, text : self.textField.text, picture : image, likes : [])
-            if self.article != nil {
+            let article = Article( user: response, nation : nation, title : self.titleField.text!, text : self.textField.text, picture : image, likes : [])
                 print("gelukt")
-                self.articleService.postArticle(article: self.article!, completion: { (response) -> Void in
-                    print(response._id!)
+                self.articleService.postArticle(article: article, completion: { (response) -> Void in
+                    self.article = Article(user: response.user!, nation: response.nation!, title: response.title!, text: response.text!, picture: response.picture!, likes: response.likes!)
+                    self.article?._id = response._id
+                    self.performSegue(withIdentifier: "didAddArticle", sender: self)
                 })
-                self.performSegue(withIdentifier: "didAddArticle", sender: self)
-            } else {
-                print("mislukt")
+            
             }
-        }
         )
         
         

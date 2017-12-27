@@ -16,9 +16,9 @@ class Article: Mappable {
     required init?(map: Map) {
         
     }
-    init(user: User, date: Date, nation: String, title:String, text:String, picture:String, likes: [String]){
+    init(user: User, nation: String, title:String, text:String, picture:String, likes: [String]){
         self.user = user
-        self.date = date
+        self.date = Date()
         self.nation = nation
         self.title = title
         self.text = text

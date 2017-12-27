@@ -12,9 +12,10 @@ import ObjectMapper
     required init?(map: Map) {
         
     }
-    init(text: String, user: String){
+    init(text: String, user: User){
             self.text = text
-            self.userId = user
+            self.user = user
+            self.userId = user.id
     }
 
     func mapping(map: Map) {

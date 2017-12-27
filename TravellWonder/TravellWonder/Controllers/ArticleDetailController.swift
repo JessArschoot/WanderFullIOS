@@ -33,6 +33,9 @@ class ArticleDetailController: UIViewController {
         if(self.likeBool){
             self.like.tintColor = .red
         }
+        else{
+            self.like.tintColor = .black
+        }
         self.commentlabel.text = "\(article.comments?.count ?? 0)"
         let dataDecoded2 : Data = Data(base64Encoded: (article.user?.picture!)!, options: .ignoreUnknownCharacters)!
         let decodedimage2 = UIImage(data: dataDecoded2)
@@ -84,12 +87,13 @@ class ArticleDetailController: UIViewController {
             let comment = addCommentViewController.comment!
             service.postComment(comment: comment, username: username, articleId: self.article._id!, completion: { (response) in
                 print("gelukt")
+                comment._id = response.comments?[(self.article!.comments?.count)!]._id
+                self.article.comments!.append(comment)
+                self.commentlabel.text = "\(self.article.comments?.count ?? 0)"
+                self.commentList.insertRows(at: [IndexPath(row: (self.article!.comments?.count)! - 1, section: 0)], with: .automatic)
                 
             })
-            self.article.comments!.append(comment)
-            self.commentlabel.text = "\(self.article.comments?.count ?? 0)"
-            self.commentList.insertRows(at: [IndexPath(row: (self.article!.comments?.count)! - 1, section: 0)], with: .automatic)
-            
+           
             
         default:
             fatalError("Unknown segue")

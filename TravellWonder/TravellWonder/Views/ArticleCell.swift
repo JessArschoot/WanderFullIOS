@@ -22,6 +22,9 @@ class ArticleCell: UITableViewCell {
             {
                 self.like.tintColor = .red
             }
+            else{
+                self.like.tintColor = .black
+            }
             title.text = String(format: article.nation! + " -- " + article.title!)
             descriptionArticle.text = article.text
         }
