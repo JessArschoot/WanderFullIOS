@@ -84,18 +84,26 @@
                                         </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gK5-vJ-E2P">
-                                        <rect key="frame" x="16" y="145" width="311" height="30"/>
+                                        <rect key="frame" x="96.5" y="145" width="150" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="3br-Ar-Heu"/>
+                                        </constraints>
                                         <state key="normal" title="Aanmelden">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" red="0.31372549020000001" green="0.66892862320000002" blue="0.85963267089999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="btnLoginWithSender:" destination="mSQ-8G-Q2Y" eventType="primaryActionTriggered" id="3yS-iR-iX9"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="gK5-vJ-E2P" firstAttribute="leading" secondItem="CFu-WM-Fyl" secondAttribute="leading" id="SgJ-qd-j2X"/>
                                     <constraint firstItem="YK4-NV-3WY" firstAttribute="leading" secondItem="qGN-ML-CU0" secondAttribute="leading" constant="16" id="TV9-IZ-I53"/>
                                     <constraint firstItem="rfV-GT-c8S" firstAttribute="leading" secondItem="WLh-RM-I1s" secondAttribute="leading" id="XMH-lh-eRr"/>
                                     <constraint firstItem="CFu-WM-Fyl" firstAttribute="leading" secondItem="rfV-GT-c8S" secondAttribute="leading" id="elG-wm-h4q"/>
@@ -447,7 +455,7 @@
         <!--Add Comment-->
         <scene sceneID="3fm-a5-hld">
             <objects>
-                <viewController id="dt9-Y4-zo4" sceneMemberID="viewController">
+                <viewController id="dt9-Y4-zo4" customClass="AddCommentViewController" customModule="TravellWonder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OGU-Lx-A6p">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -463,6 +471,10 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="hideKeyboard:" destination="dt9-Y4-zo4" eventType="editingDidEndOnExit" id="Uq3-zn-EBz"/>
+                                    <outlet property="delegate" destination="dt9-Y4-zo4" id="OMM-kg-7MW"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -477,10 +489,20 @@
                         <viewLayoutGuide key="safeArea" id="Cab-aF-Pq1"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add Comment" id="fSU-b8-Vyz">
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="O5z-h4-rWv"/>
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" systemItem="save" id="O5z-h4-rWv">
+                            <connections>
+                                <action selector="save" destination="dt9-Y4-zo4" id="EMa-EY-TLG"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="saveButton" destination="O5z-h4-rWv" id="i9j-14-QRN"/>
+                        <outlet property="textField" destination="Dq9-SR-2Kh" id="zTR-bE-A9r"/>
+                        <segue destination="V4z-mz-0kD" kind="unwind" identifier="didAddComment" unwindAction="unwindFromAddComment:" id="j7r-fz-Enu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="orr-c4-iGe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="V4z-mz-0kD" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3172" y="-1250.824587706147"/>
         </scene>
@@ -497,6 +519,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" red="0.31424829360000001" green="0.66892862320000002" blue="0.85963267089999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                     </navigationBar>
@@ -520,6 +543,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.31424829360000001" green="0.66892862320000002" blue="0.85963267089999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                     </navigationBar>

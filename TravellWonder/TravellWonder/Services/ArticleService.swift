@@ -211,5 +211,62 @@ class ArticleService {
                 
         }
     }
+    
+    func postComment (comment: Comment,username: String,articleId: String, completion: @escaping (Article) -> Void) -> Void{
+        let token = UserDefaults.standard.string(forKey: "authtoken")
+        let headers = [
+            "Authorization": "Bearer "+token!
+        ]
+        let parameters = [
+            "username": username,
+            "text": comment.text!
+            ] as [String : Any]
+        
+        var statusCode: Int = 0
+        Alamofire.request(url + "API/article/add-commentIos/" + articleId, method: .post, parameters: parameters as? [String: Any], encoding: JSONEncoding.default, headers: headers)
+            .responseJSON { response in
+                switch response.result {
+                case .success(_):
+                    statusCode = (response.response?.statusCode)! //Gets HTTP status code, useful for debugging
+                    if response.result.value != nil {
+                        //Handle the results as JSON
+                      
+                        guard let responseJSON = response.result.value as? [String: AnyObject] else {
+                             print(0,"Error reading response")
+                            return
+                        }
+                        guard let article = Mapper<Article>().map(JSON: responseJSON) else {
+                            print(0,"Error mapping response")
+                            return
+                        }
+                        completion(article)
+                    }
+                    
+                case .failure(_):
+                    print("fault")
+                }
+                
+        }
+    }
 
+    func removeArticle (articleId : String, completion: @escaping () -> Void) -> Void{
+        let token = UserDefaults.standard.string(forKey: "authtoken")
+        let headers = [
+            "Authorization": "Bearer "+token!
+        ]
+        var statusCode: Int = 0
+        Alamofire.request(url + "API/article/remove-article/" + articleId, method: .post, encoding: JSONEncoding.default, headers: headers)
+            .responseJSON { response in
+                switch response.result {
+                case .success(_):
+                    statusCode = (response.response?.statusCode)! //Gets HTTP status code, useful for debugging
+                        completion()
+                    
+                case .failure(_):
+                    print("fault")
+                }
+                
+        }
+    }
+    
 }

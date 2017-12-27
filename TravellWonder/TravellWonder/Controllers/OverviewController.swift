@@ -7,6 +7,7 @@ class OverviewController: UIViewController {
     var indexPath: IndexPath = []
     var articles : [Article] = []
     var service = ArticleService()
+    var username: String = ""
     lazy var refreshControl: UIRefreshControl = {
         let refreshControl = UIRefreshControl()
         refreshControl.addTarget(self, action:
@@ -17,6 +18,7 @@ class OverviewController: UIViewController {
     }()
     override func viewDidLoad() {
         super.viewDidLoad()
+        username = UserDefaults.standard.string(forKey: "username")!
         self.articlesList.addSubview(self.refreshControl)
         service.fetchAllArticles(completion: { (response) -> Void in self.articles = response.reversed()
             self.articlesList.reloadData()
@@ -69,6 +71,33 @@ extension OverviewController: UITableViewDelegate {
         self.indexPath = didSelectRowAt
         
     }
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        
+        let deleteAction = UIContextualAction(style: .destructive, title: "Verwijder") {
+            (action, view, completionHandler) in
+            if (self.articles[indexPath.row].user?.username == self.username){
+                self.service.removeArticle(articleId: self.articles[indexPath.row]._id!, completion: { () in
+                    print("gelukt")
+                    
+                })
+                _ = self.articles.remove(at: indexPath.row)
+                tableView.deleteRows(at: [indexPath], with: .automatic)
+                
+            }
+            else{
+                let alert = UIAlertController(title: "Mislukt", message: "Dit artikel kan je niet verwijderen wegens artikel van andere gebruiker.", preferredStyle: UIAlertControllerStyle.alert)
+                
+                // add an action (button)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                
+                // show the alert
+                self.present(alert, animated: true, completion: nil)
+            }
+        }
+        return UISwipeActionsConfiguration(actions: [deleteAction])
+        
+    }
+
     
 
 }

@@ -12,6 +12,10 @@ import ObjectMapper
     required init?(map: Map) {
         
     }
+    init(text: String, user: String){
+            self.text = text
+            self.userId = user
+    }
 
     func mapping(map: Map) {
         _id    <- map["_id"]

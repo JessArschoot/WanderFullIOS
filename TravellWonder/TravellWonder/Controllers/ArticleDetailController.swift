@@ -77,6 +77,24 @@ class ArticleDetailController: UIViewController {
         }
         
     }
+    @IBAction func unwindFromAddComment(_ segue: UIStoryboardSegue) {
+        switch segue.identifier {
+        case "didAddComment"?:
+            let addCommentViewController = segue.source as! AddCommentViewController
+            let comment = addCommentViewController.comment!
+            service.postComment(comment: comment, username: username, articleId: self.article._id!, completion: { (response) in
+                print("gelukt")
+                
+            })
+            self.article.comments!.append(comment)
+            self.commentlabel.text = "\(self.article.comments?.count ?? 0)"
+            self.commentList.insertRows(at: [IndexPath(row: (self.article!.comments?.count)! - 1, section: 0)], with: .automatic)
+            
+            
+        default:
+            fatalError("Unknown segue")
+        }
+    }
     
     
 }
@@ -90,12 +108,14 @@ extension ArticleDetailController: UITableViewDelegate {
                         self.service.removeCommentArticle(articleId: self.article._id!, commentId: self.article.comments![indexPath.row]._id!, completion: { (response) in
                             print("gelukt")
                         })
+                        
                         _ = self.article.comments![indexPath.row]
                         _ = self.article.comments!.remove(at: indexPath.row)
+                         self.commentlabel.text = "\(self.article.comments?.count ?? 0)"
                     tableView.deleteRows(at: [indexPath], with: .automatic)
                     }
                     else{
-                        let alert = UIAlertController(title: "Mislukt", message: "Deze comment kan je niet verwijderen wegens post van andere gebruiker.", preferredStyle: UIAlertControllerStyle.alert)
+                        let alert = UIAlertController(title: "Mislukt", message: "Deze comment kan je niet verwijderen wegens post van andere gebruiker. Of refresh eens.", preferredStyle: UIAlertControllerStyle.alert)
                         
                         // add an action (button)
                         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
@@ -107,6 +127,7 @@ extension ArticleDetailController: UITableViewDelegate {
                 return UISwipeActionsConfiguration(actions: [deleteAction])
         
     }
+    
     
 }
 extension ArticleDetailController: UITableViewDataSource {
@@ -126,11 +147,6 @@ extension ArticleDetailController: UITableViewDataSource {
         return cell
     }
 }
-
-//extension ArticleDetailController: UITableViewDelegate {
-//
-//
-//}
 
 
 
