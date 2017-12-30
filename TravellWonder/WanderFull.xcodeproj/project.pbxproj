@@ -57,15 +57,15 @@
 		0910B1781FEE868B00FC0EF4 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		0910B17A1FEE925F00FC0EF4 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		091E30441FF14DC800D6CA94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0926DD6E1FEBEBAC0008E31E /* TravellWonder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravellWonder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0926DD6E1FEBEBAC0008E31E /* WanderFull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WanderFull.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0926DD711FEBEBAC0008E31E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0926DD731FEBEBAC0008E31E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0926DD7B1FEBEBAC0008E31E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0926DD7D1FEBEBAC0008E31E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0926DD821FEBEBAC0008E31E /* TravellWonderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravellWonderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0926DD821FEBEBAC0008E31E /* WanderFullTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanderFullTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0926DD861FEBEBAC0008E31E /* TravellWonderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellWonderTests.swift; sourceTree = "<group>"; };
 		0926DD881FEBEBAC0008E31E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0926DD8D1FEBEBAC0008E31E /* TravellWonderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravellWonderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0926DD8D1FEBEBAC0008E31E /* WanderFullUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanderFullUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0926DD911FEBEBAC0008E31E /* TravellWonderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellWonderUITests.swift; sourceTree = "<group>"; };
 		0926DD931FEBEBAC0008E31E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		094C768A1FF2FFC70066B001 /* AddCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCommentViewController.swift; sourceTree = "<group>"; };
@@ -142,9 +142,9 @@
 		0926DD6F1FEBEBAC0008E31E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0926DD6E1FEBEBAC0008E31E /* TravellWonder.app */,
-				0926DD821FEBEBAC0008E31E /* TravellWonderTests.xctest */,
-				0926DD8D1FEBEBAC0008E31E /* TravellWonderUITests.xctest */,
+				0926DD6E1FEBEBAC0008E31E /* WanderFull.app */,
+				0926DD821FEBEBAC0008E31E /* WanderFullTests.xctest */,
+				0926DD8D1FEBEBAC0008E31E /* WanderFullUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -255,9 +255,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0926DD6D1FEBEBAC0008E31E /* TravellWonder */ = {
+		0926DD6D1FEBEBAC0008E31E /* WanderFull */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0926DD961FEBEBAC0008E31E /* Build configuration list for PBXNativeTarget "TravellWonder" */;
+			buildConfigurationList = 0926DD961FEBEBAC0008E31E /* Build configuration list for PBXNativeTarget "WanderFull" */;
 			buildPhases = (
 				AE9EA4D9C318290F80B2E48B /* [CP] Check Pods Manifest.lock */,
 				0926DD6A1FEBEBAC0008E31E /* Sources */,
@@ -270,14 +270,14 @@
 			);
 			dependencies = (
 			);
-			name = TravellWonder;
+			name = WanderFull;
 			productName = TravellWonder;
-			productReference = 0926DD6E1FEBEBAC0008E31E /* TravellWonder.app */;
+			productReference = 0926DD6E1FEBEBAC0008E31E /* WanderFull.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0926DD811FEBEBAC0008E31E /* TravellWonderTests */ = {
+		0926DD811FEBEBAC0008E31E /* WanderFullTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0926DD991FEBEBAC0008E31E /* Build configuration list for PBXNativeTarget "TravellWonderTests" */;
+			buildConfigurationList = 0926DD991FEBEBAC0008E31E /* Build configuration list for PBXNativeTarget "WanderFullTests" */;
 			buildPhases = (
 				73E5D9BC15932117DCB3329D /* [CP] Check Pods Manifest.lock */,
 				0926DD7E1FEBEBAC0008E31E /* Sources */,
@@ -291,14 +291,14 @@
 			dependencies = (
 				0926DD841FEBEBAC0008E31E /* PBXTargetDependency */,
 			);
-			name = TravellWonderTests;
+			name = WanderFullTests;
 			productName = TravellWonderTests;
-			productReference = 0926DD821FEBEBAC0008E31E /* TravellWonderTests.xctest */;
+			productReference = 0926DD821FEBEBAC0008E31E /* WanderFullTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0926DD8C1FEBEBAC0008E31E /* TravellWonderUITests */ = {
+		0926DD8C1FEBEBAC0008E31E /* WanderFullUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0926DD9C1FEBEBAC0008E31E /* Build configuration list for PBXNativeTarget "TravellWonderUITests" */;
+			buildConfigurationList = 0926DD9C1FEBEBAC0008E31E /* Build configuration list for PBXNativeTarget "WanderFullUITests" */;
 			buildPhases = (
 				F41A5D2C743CDEB3D7742794 /* [CP] Check Pods Manifest.lock */,
 				0926DD891FEBEBAC0008E31E /* Sources */,
@@ -312,9 +312,9 @@
 			dependencies = (
 				0926DD8F1FEBEBAC0008E31E /* PBXTargetDependency */,
 			);
-			name = TravellWonderUITests;
+			name = WanderFullUITests;
 			productName = TravellWonderUITests;
-			productReference = 0926DD8D1FEBEBAC0008E31E /* TravellWonderUITests.xctest */;
+			productReference = 0926DD8D1FEBEBAC0008E31E /* WanderFullUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -343,7 +343,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0926DD691FEBEBAC0008E31E /* Build configuration list for PBXProject "TravellWonder" */;
+			buildConfigurationList = 0926DD691FEBEBAC0008E31E /* Build configuration list for PBXProject "WanderFull" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -356,9 +356,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0926DD6D1FEBEBAC0008E31E /* TravellWonder */,
-				0926DD811FEBEBAC0008E31E /* TravellWonderTests */,
-				0926DD8C1FEBEBAC0008E31E /* TravellWonderUITests */,
+				0926DD6D1FEBEBAC0008E31E /* WanderFull */,
+				0926DD811FEBEBAC0008E31E /* WanderFullTests */,
+				0926DD8C1FEBEBAC0008E31E /* WanderFullUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -590,12 +590,12 @@
 /* Begin PBXTargetDependency section */
 		0926DD841FEBEBAC0008E31E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0926DD6D1FEBEBAC0008E31E /* TravellWonder */;
+			target = 0926DD6D1FEBEBAC0008E31E /* WanderFull */;
 			targetProxy = 0926DD831FEBEBAC0008E31E /* PBXContainerItemProxy */;
 		};
 		0926DD8F1FEBEBAC0008E31E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0926DD6D1FEBEBAC0008E31E /* TravellWonder */;
+			target = 0926DD6D1FEBEBAC0008E31E /* WanderFull */;
 			targetProxy = 0926DD8E1FEBEBAC0008E31E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -764,7 +764,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravellWonder.app/TravellWonder";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WanderFull.app/WanderFull";
 			};
 			name = Debug;
 		};
@@ -781,7 +781,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravellWonder.app/TravellWonder";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WanderFull.app/WanderFull";
 			};
 			name = Release;
 		};
@@ -820,7 +820,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0926DD691FEBEBAC0008E31E /* Build configuration list for PBXProject "TravellWonder" */ = {
+		0926DD691FEBEBAC0008E31E /* Build configuration list for PBXProject "WanderFull" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0926DD941FEBEBAC0008E31E /* Debug */,
@@ -829,7 +829,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0926DD961FEBEBAC0008E31E /* Build configuration list for PBXNativeTarget "TravellWonder" */ = {
+		0926DD961FEBEBAC0008E31E /* Build configuration list for PBXNativeTarget "WanderFull" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0926DD971FEBEBAC0008E31E /* Debug */,
@@ -838,7 +838,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0926DD991FEBEBAC0008E31E /* Build configuration list for PBXNativeTarget "TravellWonderTests" */ = {
+		0926DD991FEBEBAC0008E31E /* Build configuration list for PBXNativeTarget "WanderFullTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0926DD9A1FEBEBAC0008E31E /* Debug */,
@@ -847,7 +847,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0926DD9C1FEBEBAC0008E31E /* Build configuration list for PBXNativeTarget "TravellWonderUITests" */ = {
+		0926DD9C1FEBEBAC0008E31E /* Build configuration list for PBXNativeTarget "WanderFullUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0926DD9D1FEBEBAC0008E31E /* Debug */,
