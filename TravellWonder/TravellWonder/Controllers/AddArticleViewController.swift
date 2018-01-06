@@ -36,7 +36,9 @@ class AddArticleViewController: UITableViewController, UIImagePickerControllerDe
         self.saveButton.isEnabled = false
         let username = UserDefaults.standard.string(forKey: "username")
         print(username!)
-        let image = UIImagePNGRepresentation(self.imageView.image!)!.base64EncodedString(options: .lineLength64Characters)
+        let compressedImag = compressImage(self.imageView.image!)
+        let image = UIImagePNGRepresentation(compressedImag)!.base64EncodedString(options: .lineLength64Characters)
+    
         userService.fetchUserByName(name: username!, completion: { (response) -> Void in
             let nation = self.nations[self.statusPicker.selectedRow(inComponent: 0)]
             let article = Article( user: response, nation : nation, title : self.titleField.text!, text : self.textField.text, picture : image, likes : [])
@@ -44,6 +46,7 @@ class AddArticleViewController: UITableViewController, UIImagePickerControllerDe
                 self.articleService.postArticle(article: article, completion: { (response) -> Void in
                     self.article = Article(user: response.user!, nation: response.nation!, title: response.title!, text: response.text!, picture: response.picture!, likes: response.likes!)
                     self.article?._id = response._id
+                    self.article?.comments = [];
                     self.performSegue(withIdentifier: "didAddArticle", sender: self)
                 })
             
@@ -51,6 +54,26 @@ class AddArticleViewController: UITableViewController, UIImagePickerControllerDe
         )
         
         
+        
+    }
+    //source: https://stackoverflow.com/questions/29137488/how-do-i-resize-the-uiimage-to-reduce-upload-image-size
+    func compressImage (_ image: UIImage) -> UIImage {
+        
+        let actualHeight:CGFloat = image.size.height
+        let actualWidth:CGFloat = image.size.width
+        let imgRatio:CGFloat = actualWidth/actualHeight
+        let maxWidth:CGFloat = 1024.0
+        let resizedHeight:CGFloat = maxWidth/imgRatio
+        let compressionQuality:CGFloat = 0.5
+        
+        let rect:CGRect = CGRect(x: 0, y: 0, width: maxWidth, height: resizedHeight)
+        UIGraphicsBeginImageContext(rect.size)
+        image.draw(in: rect)
+        let img: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
+        let imageData:Data = UIImageJPEGRepresentation(img, compressionQuality)!
+        UIGraphicsEndImageContext()
+        
+        return UIImage(data: imageData)!
         
     }
     
@@ -91,7 +114,9 @@ class AddArticleViewController: UITableViewController, UIImagePickerControllerDe
         {
             saveButton.isEnabled = true
         }
+      
         imageView.image = info[UIImagePickerControllerOriginalImage] as? UIImage
+        
     }
 }
 

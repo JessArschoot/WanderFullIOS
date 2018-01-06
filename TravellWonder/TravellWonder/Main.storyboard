@@ -22,7 +22,7 @@
         <!--TravellWonder-->
         <scene sceneID="MMN-ju-UMt">
             <objects>
-                <tabBarController title="TravellWonder" id="xMn-OL-h8o" customClass="ViewController" customModule="TravellWonder" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController title="TravellWonder" id="xMn-OL-h8o" customClass="ViewController" customModule="WanderFull" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" itemPositioning="fill" id="gcE-te-0GS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -44,7 +44,7 @@
         <!--Inloggen-->
         <scene sceneID="1nF-bm-xpA">
             <objects>
-                <viewController id="mSQ-8G-Q2Y" customClass="LoginController" customModule="TravellWonder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="mSQ-8G-Q2Y" customClass="LoginController" customModule="WanderFull" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M1u-Sk-msR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -188,14 +188,14 @@
         <!--WanderFull-->
         <scene sceneID="UZh-sA-5OT">
             <objects>
-                <tableViewController id="Eu1-Sh-nZ2" customClass="OverviewController" customModule="TravellWonder" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Eu1-Sh-nZ2" customClass="OverviewController" customModule="WanderFull" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="b19-Yc-iDg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="separatorColor" red="0.31424829360000001" green="0.66892862320000002" blue="0.85963267089999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="gray" indentationWidth="10" reuseIdentifier="articleCell" rowHeight="192" id="wWr-oD-0ci" customClass="ArticleCell" customModule="TravellWonder" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="gray" indentationWidth="10" reuseIdentifier="articleCell" rowHeight="192" id="wWr-oD-0ci" customClass="ArticleCell" customModule="WanderFull" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="192"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wWr-oD-0ci" id="f3h-Ad-QVN">
@@ -297,7 +297,7 @@
         <!--Article Detail Controller-->
         <scene sceneID="TH6-QC-6eW">
             <objects>
-                <viewController id="PTF-Uk-sgZ" customClass="ArticleDetailController" customModule="TravellWonder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="PTF-Uk-sgZ" customClass="ArticleDetailController" customModule="WanderFull" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BU3-yv-nUQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -354,7 +354,7 @@
                                 </constraints>
                                 <color key="separatorColor" red="0.31424829360000001" green="0.66892862320000002" blue="0.85963267089999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" id="sLo-if-hEF" customClass="CommentCell" customModule="TravellWonder" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" id="sLo-if-hEF" customClass="CommentCell" customModule="WanderFull" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="371" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sLo-if-hEF" id="srF-7P-Gon">
@@ -493,7 +493,7 @@
         <!--Add Comment-->
         <scene sceneID="3fm-a5-hld">
             <objects>
-                <viewController id="dt9-Y4-zo4" customClass="AddCommentViewController" customModule="TravellWonder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dt9-Y4-zo4" customClass="AddCommentViewController" customModule="WanderFull" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OGU-Lx-A6p">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -506,6 +506,7 @@
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dq9-SR-2Kh">
                                 <rect key="frame" x="4" y="125" width="367" height="30"/>
+                                <color key="tintColor" red="0.31372549020000001" green="0.66892862320000002" blue="0.85963267089999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -596,7 +597,7 @@
         <!--WanderFull-->
         <scene sceneID="acc-nH-apl">
             <objects>
-                <viewController id="1zw-pv-aMv" customClass="LogOutController" customModule="TravellWonder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1zw-pv-aMv" customClass="LogOutController" customModule="WanderFull" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s9a-kj-fKa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -606,7 +607,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="separatorColor" red="0.31424829360000001" green="0.66892862320000002" blue="0.85963267089999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="articleCell" rowHeight="192" id="FUb-Kg-dqu" customClass="ArticleCell" customModule="TravellWonder" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="articleCell" rowHeight="192" id="FUb-Kg-dqu" customClass="ArticleCell" customModule="WanderFull" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="192"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FUb-Kg-dqu" id="V3H-t5-Q7B">
@@ -614,7 +615,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="titel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2n-WZ-QJJ">
-                                                    <rect key="frame" x="8" y="12" width="651" height="67"/>
+                                                    <rect key="frame" x="8" y="12" width="359" height="67"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                     <color key="textColor" red="0.31424829363822937" green="0.66892862319946289" blue="0.85963267087936401" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <nil key="highlightedColor"/>
@@ -627,13 +628,13 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kV0-Ia-ge1">
-                                                    <rect key="frame" x="66" y="83" width="540" height="90"/>
+                                                    <rect key="frame" x="66" y="83" width="248" height="90"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Dpf-j7-Qzb">
-                                                    <rect key="frame" x="610" y="83" width="40" height="104.5"/>
+                                                    <rect key="frame" x="318" y="83" width="40" height="104.5"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tw2-mh-44n">
                                                             <rect key="frame" x="0.0" y="0.0" width="40" height="104.5"/>
@@ -716,7 +717,7 @@
         <!--Add post-->
         <scene sceneID="7q7-bH-ha9">
             <objects>
-                <tableViewController id="TAc-3H-jUF" customClass="AddArticleViewController" customModule="TravellWonder" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="TAc-3H-jUF" customClass="AddArticleViewController" customModule="WanderFull" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="Ask-Mr-yXF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -733,6 +734,7 @@
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" restorationIdentifier="titleText" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0SB-jl-9Xl">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                                    <color key="tintColor" red="0.31372549020000001" green="0.66892862320000002" blue="0.85963267089999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
@@ -792,6 +794,7 @@
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="articleText" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QGb-Ip-l9M">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="94.5"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="tintColor" red="0.31424829360000001" green="0.66892862320000002" blue="0.85963267089999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     <connections>

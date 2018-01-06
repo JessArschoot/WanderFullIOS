@@ -117,6 +117,7 @@ extension ArticleDetailController: UITableViewDelegate {
                         _ = self.article.comments!.remove(at: indexPath.row)
                          self.commentlabel.text = "\(self.article.comments?.count ?? 0)"
                     tableView.deleteRows(at: [indexPath], with: .automatic)
+                        completionHandler(true)
                     }
                     else{
                         let alert = UIAlertController(title: "Mislukt", message: "Deze comment kan je niet verwijderen wegens post van andere gebruiker. Of refresh eens.", preferredStyle: UIAlertControllerStyle.alert)
@@ -126,7 +127,9 @@ extension ArticleDetailController: UITableViewDelegate {
                         
                         // show the alert
                         self.present(alert, animated: true, completion: nil)
+                        completionHandler(false)
                     }
+                    
                 }
                 return UISwipeActionsConfiguration(actions: [deleteAction])
         

@@ -80,6 +80,7 @@ extension OverviewController: UITableViewDelegate {
                     print("gelukt")
                     _ = self.articles.remove(at: indexPath.row)
                     tableView.deleteRows(at: [indexPath], with: .automatic)
+                        completionHandler(true)
                 })
                
                 
@@ -92,7 +93,9 @@ extension OverviewController: UITableViewDelegate {
                 
                 // show the alert
                 self.present(alert, animated: true, completion: nil)
+                    completionHandler(false)
             }
+        
         }
         return UISwipeActionsConfiguration(actions: [deleteAction])
         
